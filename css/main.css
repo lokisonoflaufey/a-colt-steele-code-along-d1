@@ -86,7 +86,77 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-    
+    :root {
+      --normal-font: 400;
+      --bold-font: 600;
+      --bolder-font: 900;
+      --primary-color: #e500a4;
+      --secondary-color: #390099;
+      --line-height: 1.7rem;
+      --transition: 0.4s ease-in;
+    }
+
+    /* Smooth scroll effects */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Resets*/
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      tansition: var(--transition);
+    }
+
+    body {
+      font-family: 'Joan', serif;
+    }
+
+    ul li {
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--primary-color);
+    }
+    a:hover {
+      color: var(--secondary-color);
+    }
+
+    .chickens {
+      color: var(--secondary-color);
+    }
+
+    .tea {
+      color: var(--primary-color);
+    }
+
+    .beverage {
+      color: var(--secondary-color);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
