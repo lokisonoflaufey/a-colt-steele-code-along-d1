@@ -282,10 +282,58 @@
       font-size: 1.8rem;
     }
 
+    .stars-gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .stars-gallery img,
+    .stars-gallery a {
+      width: 100%;
+      height:100%;
+    }
+    .stars-gallery a:first-child {
+      grid-row: 1/3;
+      grid-column: 1/3;
+    }
+    .stars-gallery a:nth-child(2) {
+      grid-colum: 3/5;
+    }
+
+    /* spilled tea*/
+    .people {
+      margin-top: 2rem;
+      padding: 1rem 0;
+    }
+
+    .tea-spillers {
+      margin: 2rem auto;
+      max-width: 1100px;
+    }
+    .tea-spillers img {
+      border-radius: 0.6rem;
+    }
+
+    .persons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      place-items: center;
+      gap: 1rem;
+    }
+
+    .name {
+      color: var(--primary-color);
+      text-align: center;
+      font-family: 'Nova Mono', monospace;
+    }
+    .role {
+      color: var(--secondary-color);
+      text-align: center;
+      font-size: 0.8rem;
+    }
 
 
-
-
+    /* Email subscription section*/
 
 
 
